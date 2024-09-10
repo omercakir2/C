@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "functions.h"
 int proDigits(int num){
     do{
         int x;
@@ -13,7 +14,7 @@ int proDigits(int num){
         else{
             int sum=1;
             while(num){
-                printf("%d\n", num % 10);
+
                 int digit  =num % 10;
                 num = num/10;
                 sum = sum*digit;
@@ -26,5 +27,11 @@ int proDigits(int num){
     while(1);
 }
 int main(void){
-    proDigits(1542);
+    int num;
+    do
+    {
+        num = getInt();
+    } while (num<0);
+    printf("Products of digits is : ");
+    proDigits(num);
 }
