@@ -17,7 +17,16 @@ int getInt(){
 }
 
 int main(void){
-    displayTriangle(getInt());
+      int num;  
+    do // it will repeat until the number is between 5 and 15
+    {
+      num = getInt();
+      if(num>=5 && num <=15){
+        break;
+      }
+    } while (1);
+
+    displayTriangle(num);
 }
     
 
