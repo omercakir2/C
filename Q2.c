@@ -1,9 +1,11 @@
 #include <stdio.h>
 int displayTriangle(int num){
+// This function's design to display a Triangle   
     int i,j;
+
     for(i=0;i<num;i++){
         for(j=0;j<i+1;j++){
-            printf("#");
+            printf("#"); /* The symbol which will be used */
         }
         printf("\n");
     }

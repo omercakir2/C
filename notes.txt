@@ -1,7 +1,7 @@
 we compile the file via gcc 
 
 type the following command :
-' gcc -o programname programname.cpp ' 
+' gcc -o programname programname.cpp 
 
 then code will be compiled 
 

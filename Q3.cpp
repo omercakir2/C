@@ -19,7 +19,6 @@ int proDigits(int num){
                 num = num/10;
                 sum = sum*digit;
             }
-            printf("%d",sum);
             return sum;
             break; 
         }
@@ -31,7 +30,8 @@ int main(void){
     do
     {
         num = getInt();
-    } while (num<0);
-    printf("Products of digits is : ");
-    proDigits(num);
+    } 
+    while (num<0);
+    int result = proDigits(num);
+    printf("Products of digits is : %d \n",result);
 }
