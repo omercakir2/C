@@ -1,0 +1,3 @@
+﻿  Q4.cpp
+c:\users\22302695\source\repos\lg10_sols\lg10_q4\q4.cpp(10): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  LG10_Q4.vcxproj -> C:\Users\22302695\source\repos\LG10_Sols\Debug\LG10_Q4.exe
